@@ -9,7 +9,7 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
 @Configuration
-public class ContactController {
+public class ContactHttpConfiguration {
   @Bean
   RouterFunction<ServerResponse> contacts(ContactRepository contactRepository) {
     return route()

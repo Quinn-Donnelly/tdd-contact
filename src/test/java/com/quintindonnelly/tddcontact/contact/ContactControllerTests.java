@@ -9,7 +9,7 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.reactive.server.WebTestClient;
 import reactor.core.publisher.Flux;
 
-@WebFluxTest(ContactController.class)
+@WebFluxTest(ContactHttpConfiguration.class)
 public class ContactControllerTests {
 
   @MockBean
